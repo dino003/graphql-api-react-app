@@ -9,7 +9,7 @@ const eventSchema = new Schema({
   },
   description: {
     type: String,
-    required: false
+    required: true
   },
   price: {
     type: Number,
